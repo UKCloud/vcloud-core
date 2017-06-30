@@ -5,5 +5,8 @@ rvm:
   - 2.2.2
   - 2.3.0
   - 2.4.0
+script:
+  - bundle install
+  - bundle exec rake integration
 notifications:
   email: false
