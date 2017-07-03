@@ -6,6 +6,7 @@ rvm:
   - 2.3.0
   - 2.4.0
 script:
+  - ./scripts/setfog.sh
   - bundle install
   - bundle exec rake integration
 notifications:
