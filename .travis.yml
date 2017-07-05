@@ -9,7 +9,7 @@ script:
   - bundle install
   - gem install vcloud-core
   - ./scripts/setfog.sh
-  - . eval "$(echo $FOG_PASSWORD | FOG_CREDENTIAL=test_credential vcloud-login)"
+  - eval "$(echo $FOG_PASSWORD | FOG_CREDENTIAL=test_credential vcloud-login)"
   - bundle exec rake integration
 notifications:
   email: false
