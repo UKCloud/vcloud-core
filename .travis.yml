@@ -8,7 +8,7 @@ rvm:
 script:
   - bundle install
   - gem install vcloud-core
-  - ./scripts/setfog.sh
+  - . ./scripts/setfog.sh
   - bundle exec rake integration
 notifications:
   email: false
