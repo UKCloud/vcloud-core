@@ -19,7 +19,7 @@ echo "    network_2_id: '2'" >> ./spec/integration/vcloud_tools_testing_config.y
 echo "    network_2_ip: '10.20.0.1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    storage_profile: 'default'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    edge_gateway: 'Internet_04(nti0000bi2_467-735-2)'" >> ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    edge_gateway_id: 'Internet_04(nti0000bi2_467-735-2)'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    edge_gateway_id: '11dbfaec-503a-4411-b16f-7cc47f75703b'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    provider_network_id: 'default'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 
 
