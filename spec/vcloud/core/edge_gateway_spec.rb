@@ -15,6 +15,7 @@ describe Vcloud::Core::EdgeGateway do
 
   context "Instance public interface" do
     subject { Vcloud::Core::EdgeGateway.new(@edgegw_id) }
+    puts @test_params.inspect
     it { should respond_to(:id) }
     it { should respond_to(:name) }
     it { should respond_to(:href) }
