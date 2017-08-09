@@ -7,7 +7,6 @@ script:
   - bundle install
   - gem install vcloud-core
   - ./scripts/setfog.sh
-  - export EXCON_DEBUG=true
   - eval "$(echo $FOG_PASSWORD | FOG_CREDENTIAL=test_credential vcloud-login)"
   - bundle exec rake integration
 notifications:
