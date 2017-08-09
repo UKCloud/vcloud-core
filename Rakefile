@@ -12,7 +12,8 @@ RSpec::Core::RakeTask.new(:spec) do |task|
 end
 
 RSpec::Core::RakeTask.new('integration') do |t|
-  t.pattern = FileList['spec/integration/**/*_spec.rb']
+  t.rspec_opts = '--format documentation'
+  t.pattern    = FileList['spec/integration/**/*_spec.rb']
 end
 
 require "gem_publisher"
