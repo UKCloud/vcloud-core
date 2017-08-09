@@ -7,19 +7,19 @@ echo "    vcloud_director_username: '$FOG_USERNAME'" >> ~/.fog
 echo "    vcloud_director_password: ''" >> ~/.fog
 
 echo "test_credential:" > ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    vdc_1_name: 'A-POW-bobby123'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    vdc_1_name: 'A-POW-HashiCorpTeamCity'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    catalog: 'Skyscape Catalogue'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    vapp_template: 'Skyscape_CentOS_6_4_x64_50GB_Small_v1.0.1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    default_storage_profile_name: 'default'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    default_storage_profile_name: 'TIER1-Any'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_1: 'bobby_network1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_1_id: '1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_1_ip: '10.10.0.1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_2: 'bobby_network2'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_2_id: '2'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    network_2_ip: '10.20.0.1'" >> ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    storage_profile: 'default'" >> ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    edge_gateway: 'Internet_04(nti0000bi2_467-735-2)'" >> ./spec/integration/vcloud_tools_testing_config.yaml
-echo "    edge_gateway_id: '11dbfaec-503a-4411-b16f-7cc47f75703b'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    storage_profile: 'TIER1-Any'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    edge_gateway: 'Internet_05(nti0000bi2_467-735-2)'" >> ./spec/integration/vcloud_tools_testing_config.yaml
+echo "    edge_gateway_id: '19cdcec1-3ba9-47c6-90cd-288021a30f26'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 echo "    provider_network_id: 'default'" >> ./spec/integration/vcloud_tools_testing_config.yaml
 
 
